@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Perfil De Usuario</title>
+    </head>
+    <body>
+        <header>
+            <h1>Perfil</h1>
+        </header>
+        <main>
+            <article>
+                <h2>Datos del usuario</h2>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Nombre:</td>
+                            <td>Ignacio Gracia</td>
+                        </tr>
+                        <tr>
+                            <td>Email:</td>
+                            <td>ignaciograciaguajardo@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Número:</td> 
+                            <td>2613202002</td>
+                        </tr>
+                        <tr>
+                            <td>Descripción:</td> 
+                            <td>Estudiante de ingenieria en sistemas</td> 
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+
+            <article>
+                <h2>Modificar datos</h2>
+                <form> 
+                    <div>
+                        <label>Nuevo nombre: </label>
+                        <input type="text" name="nuevo_nombre" id="nombre-input">
+                    </div>
+                    <div>
+                        <label>Nuevo email: </label>
+                        <input type="email" name="nuevo_email" id="email-input">
+                    </div>
+                    <div>
+                        <label>Nuevo Número: </label>
+                        <input type="number" name="nuevo_numero" id="numero-input">
+                    </div>
+                    <div>
+                        <label>Agregue Descripción: </label>
+                        <textarea name="nueva_descripcion" id="descripcion-input"></textarea>
+                    </div>
+                    <button type="submit">Guardar Cambios</button>
+                </form>
+            </article>
+        </main>
+    </body>
+</html>
